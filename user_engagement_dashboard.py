@@ -16,8 +16,8 @@ st.title("📊 User Engagement Analysis Across Courses")
 # -------------------------------
 # Step 1: Load Dataset
 # -------------------------------
-file_path = r"C:\Users\Admin\Desktop\e_learning_dataset_with_course_names.csv"  # <-- Update your path
-df = pd.read_csv(file_path)
+ # <-- Update your path
+df = pd.read_csv("data/e_learning_dataset_with_course_names.csv")
 
 # -------------------------------
 # Step 2: Clean Column Names
